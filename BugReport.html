@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <title>Bug Report</title>
+    <body>
+        <h3>Jennifer Reisinger CS316</h3>
+        <h3>Assignment 8-3</h3>
+        <h3>Bug Report</h3><hr />
+        <h2>Enter the following information to submit your bug report:</h2>
+        <form method="POST" action="SubmitBugReport.php">
+            <p>First Name: <input type="text" name="first_name"/></p>
+            <p>Last Name: <input type="text" name="last_name"/></p>
+            <p>Email Address: <input type="text" name="email"/></p>
+            <p>Software or Webapp Bug Was Located:</p> 
+            <p><input type="text" name="bug_location" maxlength="25"></p>
+            <p>Description of bug (255 characters or less):</p>
+            <textarea name="bug_description" rows="5" cols="30" maxlength="255"></textarea>
+            <p><input type="submit" value="Submit" /></p>
+        </form>
+        <p><a href="ViewBugReports.php">View Submitted Reports</a></p>
+    </body>
+</html>
